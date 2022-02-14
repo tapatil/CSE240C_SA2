@@ -1,0 +1,114 @@
+
+*** ChampSim Multicore Out-of-Order Simulator ***
+
+Warmup Instructions: 10000000
+Simulation Instructions: 100000000
+Number of CPUs: 1
+Off-chip DRAM Size: 4 GiB Channels: 1 Width: 64-bit Data Rate: 3200 MT/s
+
+VirtualMemory physical capacity: 8588881920 num_ppages: 2096895
+VirtualMemory page size: 4096 log2_page_size: 12
+
+CPU 0 runs /datasets/cs240c-wi22-a00-public/data/Assignment2/milc_360B.trace.xz
+CPU 0 Bimodal branch predictor
+Basic BTB sets: 1024 ways: 8 indirect buffer size: 4096 RAS size: 64
+Initialize Hawkeye state
+Heartbeat CPU 0 instructions: 10000001 cycles: 2500103 heartbeat IPC: 3.99984 cumulative IPC: 3.99984 (Simulation time: 0 hr 0 min 27 sec) 
+
+Warmup complete CPU 0 instructions: 10000001 cycles: 2500103 (Simulation time: 0 hr 0 min 27 sec) 
+
+Heartbeat CPU 0 instructions: 20000000 cycles: 20122825 heartbeat IPC: 0.567449 cumulative IPC: 0.567449 (Simulation time: 0 hr 2 min 6 sec) 
+Heartbeat CPU 0 instructions: 30000004 cycles: 37645718 heartbeat IPC: 0.570682 cumulative IPC: 0.569061 (Simulation time: 0 hr 3 min 44 sec) 
+Heartbeat CPU 0 instructions: 40000001 cycles: 55172131 heartbeat IPC: 0.570567 cumulative IPC: 0.569562 (Simulation time: 0 hr 5 min 19 sec) 
+Heartbeat CPU 0 instructions: 50000001 cycles: 75842755 heartbeat IPC: 0.483778 cumulative IPC: 0.545385 (Simulation time: 0 hr 7 min 22 sec) 
+Heartbeat CPU 0 instructions: 60000003 cycles: 95261361 heartbeat IPC: 0.51497 cumulative IPC: 0.539018 (Simulation time: 0 hr 8 min 56 sec) 
+Heartbeat CPU 0 instructions: 70000000 cycles: 114839216 heartbeat IPC: 0.510781 cumulative IPC: 0.534097 (Simulation time: 0 hr 10 min 30 sec) 
+Heartbeat CPU 0 instructions: 80000000 cycles: 131893759 heartbeat IPC: 0.586354 cumulative IPC: 0.540985 (Simulation time: 0 hr 12 min 3 sec) 
+Heartbeat CPU 0 instructions: 90000000 cycles: 148110059 heartbeat IPC: 0.616663 cumulative IPC: 0.549413 (Simulation time: 0 hr 13 min 31 sec) 
+Heartbeat CPU 0 instructions: 100000003 cycles: 164388331 heartbeat IPC: 0.614316 cumulative IPC: 0.555939 (Simulation time: 0 hr 15 min 2 sec) 
+Heartbeat CPU 0 instructions: 110000003 cycles: 180695570 heartbeat IPC: 0.613225 cumulative IPC: 0.561181 (Simulation time: 0 hr 16 min 30 sec) 
+Finished CPU 0 instructions: 100000002 cycles: 178195467 cumulative IPC: 0.561181 (Simulation time: 0 hr 16 min 30 sec) 
+
+ChampSim completed all CPUs
+
+Region of Interest Statistics
+
+CPU 0 cumulative IPC: 0.561181 instructions: 100000002 cycles: 178195467
+cpu0_DTLB TOTAL     ACCESS:   15528071  HIT:   15313327  MISS:     214744
+cpu0_DTLB LOAD      ACCESS:    9093323  HIT:    8880794  MISS:     212529
+cpu0_DTLB RFO       ACCESS:    6434748  HIT:    6432533  MISS:       2215
+cpu0_DTLB PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+cpu0_DTLB WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+cpu0_DTLB TRANSLATION ACCESS:          0  HIT:          0  MISS:          0
+cpu0_DTLB PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+cpu0_DTLB AVERAGE MISS LATENCY: 83.6755 cycles
+cpu0_ITLB TOTAL     ACCESS:    2730847  HIT:    2730844  MISS:          3
+cpu0_ITLB LOAD      ACCESS:    2730847  HIT:    2730844  MISS:          3
+cpu0_ITLB RFO       ACCESS:          0  HIT:          0  MISS:          0
+cpu0_ITLB PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+cpu0_ITLB WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+cpu0_ITLB TRANSLATION ACCESS:          0  HIT:          0  MISS:          0
+cpu0_ITLB PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+cpu0_ITLB AVERAGE MISS LATENCY: 491.333 cycles
+cpu0_L1I TOTAL     ACCESS:    6950707  HIT:    6950679  MISS:         28
+cpu0_L1I LOAD      ACCESS:    6950707  HIT:    6950679  MISS:         28
+cpu0_L1I RFO       ACCESS:          0  HIT:          0  MISS:          0
+cpu0_L1I PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+cpu0_L1I WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+cpu0_L1I TRANSLATION ACCESS:          0  HIT:          0  MISS:          0
+cpu0_L1I PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+cpu0_L1I AVERAGE MISS LATENCY: 225.214 cycles
+cpu0_STLB TOTAL     ACCESS:     214747  HIT:        124  MISS:     214623
+cpu0_STLB LOAD      ACCESS:     212532  HIT:         98  MISS:     212434
+cpu0_STLB RFO       ACCESS:       2215  HIT:         26  MISS:       2189
+cpu0_STLB PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+cpu0_STLB WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+cpu0_STLB TRANSLATION ACCESS:          0  HIT:          0  MISS:          0
+cpu0_STLB PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+cpu0_STLB AVERAGE MISS LATENCY: 74.723 cycles
+cpu0_L1D TOTAL     ACCESS:   24605528  HIT:   22509137  MISS:    2096391
+cpu0_L1D LOAD      ACCESS:    6428531  HIT:    4472533  MISS:    1955998
+cpu0_L1D RFO       ACCESS:   17962817  HIT:   17822808  MISS:     140009
+cpu0_L1D PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+cpu0_L1D WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+cpu0_L1D TRANSLATION ACCESS:     214180  HIT:     213796  MISS:        384
+cpu0_L1D PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+cpu0_L1D AVERAGE MISS LATENCY: 340.594 cycles
+cpu0_L2C TOTAL     ACCESS:    2839086  HIT:     742662  MISS:    2096424
+cpu0_L2C LOAD      ACCESS:    1956026  HIT:          0  MISS:    1956026
+cpu0_L2C RFO       ACCESS:     140009  HIT:          0  MISS:     140009
+cpu0_L2C PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+cpu0_L2C WRITEBACK ACCESS:     742667  HIT:     742660  MISS:          7
+cpu0_L2C TRANSLATION ACCESS:        384  HIT:          2  MISS:        382
+cpu0_L2C PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+cpu0_L2C AVERAGE MISS LATENCY: 329.49 cycles
+LLC TOTAL     ACCESS:    2839080  HIT:      76803  MISS:    2762277
+LLC LOAD      ACCESS:    1956026  HIT:      15946  MISS:    1940080
+LLC RFO       ACCESS:     140009  HIT:          9  MISS:     140000
+LLC PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+LLC WRITEBACK ACCESS:     742663  HIT:      60770  MISS:     681893
+LLC TRANSLATION ACCESS:        382  HIT:         78  MISS:        304
+LLC PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+LLC AVERAGE MISS LATENCY: 234.128 cycles
+OPTgen accesses: 35230
+OPTgen hits: 578
+OPTgen hit rate: 1.64065
+
+
+
+DRAM Statistics
+ CHANNEL 0
+ RQ ROW_BUFFER_HIT:     358449  ROW_BUFFER_MISS:    1721925
+ DBUS AVG_CONGESTED_CYCLE:     3.9461
+ WQ ROW_BUFFER_HIT:      38710  ROW_BUFFER_MISS:     689672  FULL:          0
+
+
+CPU 0 Branch Prediction Accuracy: 99.9991% MPKI: 0.00037 Average ROB Occupancy at Mispredict: 87.1892
+Branch type MPKI
+BRANCH_DIRECT_JUMP: 4e-05
+BRANCH_INDIRECT: 0
+BRANCH_CONDITIONAL: 0.00015
+BRANCH_DIRECT_CALL: 9e-05
+BRANCH_INDIRECT_CALL: 0
+BRANCH_RETURN: 9e-05
+
