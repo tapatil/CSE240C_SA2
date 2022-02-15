@@ -248,7 +248,7 @@ function get_IPC() {
             echo "${ipc_array[$j]}"
         done > ./results_ipc/${binaryName[$i]}.txt
         
-        ./my_mean ./results_ipc/${binaryName[$i]}.txt > ./results_ipc_mean/${binaryName[$i]}.txt
+        ./my_mean ./results_ipc/${binaryName[$i]}.txt 1.0 > ./results_ipc_mean/${binaryName[$i]}.txt
     done
 
     rm my_mean
@@ -279,7 +279,7 @@ function get_MPKI() {
             echo "${mpki_array[$j]}"
         done > ./results_mpki/${binaryName[$i]}.txt
 
-        ./my_mean ./results_mpki/${binaryName[$i]}.txt > ./results_mpki_mean/${binaryName[$i]}.txt
+        ./my_mean ./results_mpki/${binaryName[$i]}.txt 1.0 > ./results_mpki_mean/${binaryName[$i]}.txt
     done
 
     rm my_mean
@@ -310,7 +310,7 @@ function get_MPKI_LLC() {
             echo "${miss_array[$j]}"
         done > ./results_LLC_miss/${binaryName[$i]}.txt
 
-        ./my_mean ./results_LLC_miss/${binaryName[$i]}.txt > ./results_LLC_mpki_mean/${binaryName[$i]}.txt 100000.0
+        ./my_mean ./results_LLC_miss/${binaryName[$i]}.txt 100000.0 > ./results_LLC_mpki_mean/${binaryName[$i]}.txt
     done
 
     rm my_mean
